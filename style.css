@@ -1,0 +1,248 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,1000&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,1000&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+#nav_bar{
+    overflow: hidden;
+    position: fixed;
+    box-sizing:border-box;
+    width: 100vw;
+    background-color: #6F6AF7;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#nav_bar ul {
+    
+    list-style-type: none;    
+}
+
+#nav_bar li {
+    float: left;   
+    padding-left: 80px;  
+    color:white;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+#Dappr_logo img{
+    position: relative;
+    right: 60px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+#Search_bar img{
+    height: 35px;
+    position: relative;    
+}
+
+#Humburger_logo img{
+    height: 30px;
+    position: fixed;
+    right: 20px;   
+}
+
+#main{
+    display: flex;
+    padding-top: 110px;
+    padding-left: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#main img{
+    height: 400px;
+    width: 450px;
+}
+
+#nav_bar input[type=text] {
+    padding: 7px;
+    border: none;
+    margin-top: 1px;
+    margin-left: 34px;
+    font-size: 17px;
+    border-radius: 63px;
+}
+
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    position: relative;
+    right: 36px;
+    color: grey;
+    margin-right: 46px;
+}
+
+
+section{
+    height: 320px;
+    margin-top: 20px;
+    width: 700px;
+    font-size: 21px;
+    background-color: #E5D8FF;
+    border-radius: 25px;
+    padding: 20px; 
+}
+
+
+#SocialMedia img{
+    height: 259px;
+    width: 75px;   
+}
+
+#SocialMedia {
+    position: sticky;
+    float: right;
+    margin-top: 126px;
+    top: 21px;   
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-top: 30px;  
+    font-family: 'DM Sans', sans-serif; 
+}
+
+#Card1, #Card2, #Card3, #Card4{
+    background-color: #6F6AF7;
+    color: white;
+    text-align: left;
+    border-radius: 11px;
+    height: 90px;
+    width: 200px;
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#Card2{
+    background-color: #734CF2;   
+}
+
+#Card3{
+    background-color: #D288FF;
+
+}
+
+#Card4{
+    background-color: black;
+   
+}
+
+#Information{
+    display: flex;
+    padding-left: 51px;
+    padding-top: 70px;
+    background-color: #483EFF;
+    height: 500px;
+    width: 1274px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+   
+}
+
+
+#Left_Cards div {
+  
+    margin-bottom: 20px;
+    height: 70px;
+    width: 262px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 21px;
+    text-align: center;
+    padding-top: 47px;
+    
+}
+#Bookmarks, #Setting {
+    border: 4px solid white;
+
+}
+
+
+#Your_info{
+    color: black;    
+    background-color:  #BCE0F6;
+    
+}
+
+#Bookmarks{
+    color: white;
+    
+}
+
+#Setting{
+    color: white;
+   
+}
+
+#Right_Information_Card ul li{
+    padding-bottom: 20px;
+}
+
+
+#Right_Information_Card {
+    color: #04285A;
+    background-color: white;
+    margin-left: 70px;
+    margin-right: 28px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 48vw;
+    border-radius: 21px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#Right_Information_Card h2{
+    font-family:  'Inter', sans-serif;
+    font-size: 30px; 
+}
+
+.Details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.entries{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+#next {
+    height: 40px;
+    width: 112px;
+    position: relative;
+    margin-left: 520px;
+    margin-top: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 13px;
+    /* align-items: center;
+    justify-content: center; */
+    font-family: 'Roboto', sans-serif;
+}
